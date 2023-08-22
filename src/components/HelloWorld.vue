@@ -90,13 +90,13 @@
                     </el-form-item>
                   </el-col>
                   <el-col :span="12">
-                    <el-form-item label="上海正也药业有限公司" prop="name" label-width="230px">
+                    <el-form-item label="上海正也药业有限公司" label-width="230px">
                     </el-form-item>
                   </el-col>
                 </el-row>
               </el-col>
               <el-col :span="12">
-                <el-form-item label="协议状态" prop="region">
+                <el-form-item label="协议状态">
                   <el-select v-model="form.region" placeholder="">
                     <el-option label="正常" value="正常"></el-option>
                     <el-option label="不正常" value="不正常"></el-option>
@@ -108,7 +108,7 @@
               <el-col :span="12">
                 <el-row>
                   <el-col :span="9">
-                    <el-form-item label="购进指标" prop="region">
+                    <el-form-item label="购进指标">
                       <el-select v-model="form.region" placeholder="请选择活动区域">
                         <el-option label="金额" value="1"></el-option>
                         <el-option label="数量" value="2"></el-option>
@@ -116,7 +116,7 @@
                     </el-form-item>
                   </el-col>
                   <el-col :span="12">
-                    <el-form-item label="" prop="name" style="width: 80%;">
+                    <el-form-item label=""  style="width: 80%;">
                       <el-input v-model="form.name" placeholder="输入金额/数量"></el-input>
                     </el-form-item>
                   </el-col>
@@ -125,7 +125,7 @@
               <el-col :span="12">
                 <el-row>
                   <el-col :span="9">
-                    <el-form-item label="纯销指标" prop="region">
+                    <el-form-item label="纯销指标" >
                       <el-select v-model="form.region" placeholder="">
                         <el-option label="金额" value="1"></el-option>
                         <el-option label="数量" value="2"></el-option>
@@ -133,7 +133,7 @@
                     </el-form-item>
                   </el-col>
                   <el-col :span="12">
-                    <el-form-item label="" prop="name" style="width: 80%;">
+                    <el-form-item label=""  style="width: 80%;">
                       <el-input v-model="form.name" placeholder="输入金额/数量"></el-input>
                     </el-form-item>
                   </el-col>
@@ -144,7 +144,7 @@
               <el-col :span="12">
                 <el-row>
                   <el-col :span="9">
-                    <el-form-item label="销售渠道" prop="region">
+                    <el-form-item label="销售渠道">
                       <el-select v-model="form.region" placeholder="请选择区域">
                         <el-option label="金额" value="1"></el-option>
                         <el-option label="数量" value="2"></el-option>
@@ -152,14 +152,14 @@
                     </el-form-item>
                   </el-col>
                   <el-col :span="3">
-                    <el-form-item label="" prop="region">
+                    <el-form-item label="">
                       <el-tag closable>全国</el-tag>
                     </el-form-item>
                   </el-col>
                 </el-row>
               </el-col>
               <el-col :span="12">
-                <el-form-item label="签订时间" prop="date">
+                <el-form-item label="签订时间">
                   <el-date-picker type="date" placeholder="选择日期" v-model="form.date1"
                     style="width: 86%;"></el-date-picker>
                 </el-form-item>
@@ -169,7 +169,7 @@
               <el-col :span="12">
                 <el-row>
                   <el-col :span="9">
-                    <el-form-item label="购进渠道" prop="region">
+                    <el-form-item label="购进渠道" >
                       <el-select v-model="form.region1" placeholder="请指定渠道">
                         <el-option label="金额" value="1"></el-option>
                         <el-option label="数量" value="2"></el-option>
@@ -177,7 +177,7 @@
                     </el-form-item>
                   </el-col>
                   <el-col :span="8">
-                    <el-form-item label="" prop="region">
+                    <el-form-item label="" >
                       <el-select v-model="form.region" placeholder="请选择渠道">
                         <el-option label="金额" value="1"></el-option>
                         <el-option label="数量" value="2"></el-option>
